@@ -1,0 +1,12 @@
+name: Seven Bridge PoC
+version: "0.0.1"
+slug: seven_bridge_poc
+description: "PoC for validating Supervisor add-on management permissions"
+arch:
+  - aarch64
+startup: services
+boot: manual
+hassio_api: true
+hassio_role: manager
+homeassistant_api: false
+ingress: false
